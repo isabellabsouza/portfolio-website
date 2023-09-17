@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="/style.css">
+    <link rel=stylesheet href="/mediaqueries.css">
+    <title>Isabella Bicudo</title>
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="nome">Isabella Bicudo</div>
+
+        <div class="menu">
+            <ul class="menu-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacoes">Formacoes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="mobile-nav">
+        <div class="nome">Isabella Bicudo</div>
+
+        <div class="mobile-menu">
+            <div class="hamburguer-icon" onclick="abreMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="mobile-menu-links">
+            <li><a href="#sobre" onclick="abreMenu()">Sobre</a></li>
+            <li><a href="#experiencia" onclick="abreMenu()">Experiência</a></li>
+            <li><a href="#projetos" onclick="abreMenu()">Projetos</a></li>
+            <li><a href="#formacoes" onclick="abreMenu()">Formacoes</a></li>
+            <li><a href="#contato" onclick="abreMenu()">Contato</a></li>
+        </div>
+    </nav>
+
+    <section class="perfil">
+        <div class="foto-perfil">
+            <img src="/assets/foto-perfil.jpg" alt="Foto de perfil">
+        </div>
+
+        <div class="texto-perfil">
+            <div class="texto-perfil-p1">Olá, eu sou a</div>
+            <h1 class="titulo">Isabella Bicudo</h1>
+            <div class="texto-perfil-p2">Desenvolvedora Full-Stack</div>
+            <div class="btn-container">
+                <button class="btn-curriculo" onclick="window.open('./assets/curriculo.pdf')">
+                    Download CV
+                </button>
+    
+                <button class="btn-curriculo" onclick="location.href='./#contato'">
+                    Contato
+                </button>
+            </div>
+
+            <div class="social-container">
+                <img class="icon" src="/assets/linkedin.png" alt="Linkedin" 
+                    onclick="location.href='https://www.linkedin.com/in/isabella-bicudo-de-souza-1879141bb/'">
+                
+                <img class="icon" src="/assets/github.png" alt="GitHUb" 
+                    onclick="location.href='https://github.com/isabellabsouza'">
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
