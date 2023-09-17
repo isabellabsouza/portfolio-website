@@ -144,3 +144,111 @@ a:hover {
 .hamburguer-icon span:first-child {
     transform: none;
 } */
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+/* PERFIL */
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    height: 80vh;
+}
+
+.foto-perfil {
+    display: flex;
+    height: 375px;
+    width: 375px;
+    margin: auto 0;
+    
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+}
+
+.texto-perfil{
+    align-self: center;
+    text-align: center;
+
+}
+
+.texto-perfil p {
+    font-weight: 600;
+}
+
+.texto-perfil-p1 {
+    text-align: center;
+}
+
+.texto-perfil-p2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-curriculo, .btn-contato{
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-curriculo:hover, .btn-contato:hover{
+    cursor: pointer;
+}
+
+.btn-contato, .btn-curriculo:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-contato:hover {
+    background: black;
+}
+
+.btn-curriculo {
+    background: none;
+}
+
+.btn-curriculo:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
