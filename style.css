@@ -282,9 +282,8 @@ section{
 }
 
 .arrow {
-    position: relative;
-    right: 5rem;
-    top: 2.5rem;
+    position: absolute;
+    right: 0;
 }
 
 .detalhes-container{
