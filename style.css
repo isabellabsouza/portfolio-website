@@ -350,6 +350,18 @@ article .icon {
     cursor: default;
 }
 
+
+    .article-container article {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    article img {
+        align-self: center;
+    }
+
+
+
 /* PROJETOS */
 
 #projetos {

@@ -1,3 +1,13 @@
+@media screen and (max-width: 1400px) {
+    .perfil {
+        height: 83vh;
+        margin-bottom: 6rem; 
+    }
+
+    .sobre-containers {
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -5,4 +15,91 @@
     #mobile-nav {
         display: flex;
     }
+    #experiencia, .experiencia-detalhes-container{
+        margin-top: 2rem;
+
+    }
+    .perfil, .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .sobre-foto-container {
+        width: 350px;
+        height: 350px;
+        margin: 0 auto 2rem;
+        justify-content: center;
+    }
+    .sobre-containers {
+        margin-top: 0;
+
+    }
 }
+
+@media screen and (max-width: 600px){
+    #contato, footer {
+        height: 40vh;
+    }
+    .perfil {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article {
+        font-size: 1rem;
+
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .sobre-containers, .contato-info-container-cima, .btn-container {
+        flex-wrap: wrap;
+
+    }
+
+    .contato-info-container {
+        margin: 0;
+
+    }
+
+    .contato-info-container p, .menu-links li a {
+        font-size: 1rem;
+        
+    }
+
+    .experiencia-subtitulo {
+        font-size: 1.25rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .menu-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+
+    }
+    .sobre-foto-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+
+    }
+    .texto-perfil-p2 {
+        font-size: 1.25rem;
+    }
+    .titulo {
+        font-size: 2rem;
+    }
+    .texto-containers {
+        text-align: justify;
+    }
+}
+
