@@ -309,6 +309,33 @@ section{
     height: 80%;
 }
 
+/* FORMACOES */
+
+#formacoes {
+    position: relative;
+}
+
+.formacao-item {
+    padding: 0 0 20px 20px;
+  margin-top: -2px;
+  position: relative;
+  border-left: 2px solid black;
+  text-align: justify;
+}
+
+
+.formacao-item::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    left: -9px;
+    margin-top: 6px;
+    background: black;
+    border: 2px solid black;
+}
+
 /* EXPERIENCIA */
 
 #experiencia {
