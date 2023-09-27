@@ -331,6 +331,10 @@ section{
     margin-top: 1rem;
 }
 
+.estrelas i{
+    color: rgb(85, 85, 85);
+}
+
 
 /* .formacao-item::before {
     content: "";
