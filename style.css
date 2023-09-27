@@ -309,6 +309,12 @@ section{
     height: 80%;
 }
 
+.texto-conteiners{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
 /* FORMACOES */
 
 #formacoes {
@@ -427,6 +433,7 @@ article .icon {
 .projeto-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+
 }
 
 /* CONTATO */
@@ -436,6 +443,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-top: 130px;
 }
 
 .contato-info-container-cima {
