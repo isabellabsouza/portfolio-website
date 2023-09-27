@@ -317,14 +317,22 @@ section{
 
 .formacao-item {
     padding: 0 0 20px 20px;
-  margin-top: -2px;
-  position: relative;
-  border-left: 2px solid black;
-  text-align: justify;
+    margin-top: -2px;
+    position: relative;
+    text-align: justify;
+    display: flex;
+}
+
+.formacao-item i {
+    margin-right: 1rem;
+}
+
+.formacao-item button {
+    margin-top: 1rem;
 }
 
 
-.formacao-item::before {
+/* .formacao-item::before {
     content: "";
     position: absolute;
     width: 13px;
@@ -334,7 +342,7 @@ section{
     margin-top: 6px;
     background: black;
     border: 2px solid black;
-}
+} */
 
 /* EXPERIENCIA */
 
